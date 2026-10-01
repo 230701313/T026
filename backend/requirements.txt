@@ -1,0 +1,19 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+supabase==2.11.0
+python-multipart==0.0.20
+httpx==0.28.1
+pyjwt[crypto]==2.10.1
+cryptography>=42.0.0
+email-validator==2.2.0
+
+# AI Image + NLP Multi-Modal Matching (Phases 3-5)
+# Uses sentence-transformers with 'clip-ViT-B-32' for image embeddings and
+# 'all-MiniLM-L6-v2' for text embeddings. This unified approach keeps to
+# one embedding library instead of separate open-clip-torch dependencies.
+sentence-transformers==3.3.1
+pillow==11.1.0
+numpy==2.2.1
